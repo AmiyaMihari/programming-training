@@ -1,0 +1,10 @@
+# Pruebas (todas las etapas)
+pytest
+
+# Etapa 3: API con FastAPI
+fastapi
+uvicorn
+httpx  # lo usa TestClient para probar endpoints
+
+# Etapa 3: conexión a PostgreSQL
+psycopg[binary]
