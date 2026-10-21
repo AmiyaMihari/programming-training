@@ -1,10 +1,2 @@
-# Pruebas (todas las etapas)
+# Para probar los ejercicios. Se agregarán más paquetes cuando el plan los pida.
 pytest
-
-# Etapa 3: API con FastAPI
-fastapi
-uvicorn
-httpx  # lo usa TestClient para probar endpoints
-
-# Etapa 3: conexión a PostgreSQL
-psycopg[binary]
