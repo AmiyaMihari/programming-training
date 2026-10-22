@@ -1,0 +1,6 @@
+{
+    // Sin código sugerido por IA en este repo (regla de práctica del README).
+    "editor.inlineSuggest.enabled": false,
+    "github.copilot.enable": { "*": false },
+    "github.copilot.nextEditSuggestions.enabled": false
+}
