@@ -1,13 +1,23 @@
 #Cuenta cantidad de números pares en una lista
 
+# Función vieja con ciclo while
+# def contar_pares(lista_numeros):
+#     num_pares = 0
+#     i = 0
+#     while i != len(lista_numeros):
+#         num = lista_numeros[i] % 2
+#         if num == 0:
+#             num_pares+=1
+#         i+=1
+#     return num_pares
+
+# Función nueva con ciclo for
 def contar_pares(lista_numeros):
     num_pares = 0
-    i = 0
-    while i != len(lista_numeros):
-        num = lista_numeros[i] % 2
+    for elemento in lista_numeros:
+        num = elemento % 2
         if num == 0:
             num_pares+=1
-        i+=1
     return num_pares
 
 
